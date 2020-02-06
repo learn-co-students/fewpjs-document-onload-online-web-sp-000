@@ -3,6 +3,5 @@ document.addEventListener( "DOMContentLoaded", function () {
 } );
 
 function modifyContent() {
-  document.getElementById( "text" )
-    .innerHTML = "This is really cool!";
+  document.getElementById( "text" ).innerHTML = "This is really cool!";
 }
