@@ -30,6 +30,7 @@ We need to make sure to wait until _after_ the `DOMContentLoaded` event is
 triggered to safely execute our code. By creating an event listener, we can keep
 our code from immediately firing when `index.js` is loaded.
 
+
 ## Set Up an Event Listener for DOMContentLoaded
 
 As always, `addEventListener` takes a `String` with the name of the
@@ -120,5 +121,3 @@ completely loads.
 [innertext]: https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/innerText
 [textcontent]: https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent
 [innerhtml]: https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML
-
-
