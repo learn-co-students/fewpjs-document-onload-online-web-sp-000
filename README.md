@@ -12,7 +12,7 @@ runs at the right time. Every now and then, you may have to add some extra
 code to ensure your code doesn't run before the page is ready. There are
 many factors that go into determining the "right time." There are two
 events that represent two important milestones in terms of page load:
-
+##
 1. The `DOMContentLoaded` event fires when your page's DOM is fully parsed
 2. The `load` event fires when a resource and its dependent resources
    (CSS, JavaScript) have finished loading
