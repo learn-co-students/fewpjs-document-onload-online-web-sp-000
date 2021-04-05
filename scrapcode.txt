@@ -1,0 +1,28 @@
+document.addEventListener("DOMContentLoaded", function() {
+
+    // repl = document.getElementById("text");
+    // repl.textContent = "This is really cool!";
+
+    textChange();
+
+    /* Testing bullshit
+    body = document.querySelector("body");
+    test = document.createElement("p");
+    test.textContent = "This is a test. It is only a test. If this were real code intended to pass the Flatiron test I would have run it already.";
+    body.appendChild(test);
+    */
+});
+
+function textChange() {
+repl = document.getElementById("text");
+repl.textContent = "This is really cool!";
+}
+/*
+    body = document.querySelector("body");
+    boo = document.createElement("p");
+    boo.textContent = "Is this a problem with the event listener or a problem with the other code? Only The Shadow knows.";
+    body.appendChild(boo);
+
+    This was a test and querySelector worked and getElementsByTagName worked only when it had a [0] after the tag name
+
+    */
